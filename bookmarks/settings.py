@@ -129,3 +129,8 @@ LOGIN_REDIRECT_URL = 'dashboard'
 LOGIN_URL = 'login'
 LOGOUT_URL = 'logout'
 LOGOUT_REDIRECT_URL = 'dashboard'  # نام آدرس یا URL صفحه‌ای که می‌خواهید بعد از خروج هدایت شود
+
+
+
+
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
